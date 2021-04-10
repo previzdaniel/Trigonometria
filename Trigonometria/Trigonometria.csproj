@@ -63,14 +63,76 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAlapok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlapok.Designer.cs">
+      <DependentUpon>frmAlapok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPitagorasz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPitagorasz.Designer.cs">
+      <DependentUpon>frmPitagorasz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPitagoraszGyakorlas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPitagoraszGyakorlas.Designer.cs">
+      <DependentUpon>frmPitagoraszGyakorlas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSzogfuggvenyek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSzogfuggvenyek.Designer.cs">
+      <DependentUpon>frmSzogfuggvenyek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTerulet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTerulet.Designer.cs">
+      <DependentUpon>frmTerulet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeruletGyakorlas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeruletGyakorlas.Designer.cs">
+      <DependentUpon>frmTeruletGyakorlas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PitagorasziSzamharmasok.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SzogfuggvenyekGyakorlas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SzogfuggvenyekGyakorlas.Designer.cs">
+      <DependentUpon>SzogfuggvenyekGyakorlas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextBoxHarmas.cs" />
     <Compile Include="User.cs" />
     <EmbeddedResource Include="Fomenu.resx">
       <DependentUpon>Fomenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlapok.resx">
+      <DependentUpon>frmAlapok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPitagorasz.resx">
+      <DependentUpon>frmPitagorasz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPitagoraszGyakorlas.resx">
+      <DependentUpon>frmPitagoraszGyakorlas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSzogfuggvenyek.resx">
+      <DependentUpon>frmSzogfuggvenyek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTerulet.resx">
+      <DependentUpon>frmTerulet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeruletGyakorlas.resx">
+      <DependentUpon>frmTeruletGyakorlas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,7 +142,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SzogfuggvenyekGyakorlas.resx">
+      <DependentUpon>SzogfuggvenyekGyakorlas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -93,6 +159,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pattern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pattern %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pattern %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\képletek.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
